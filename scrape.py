@@ -26,12 +26,12 @@ emails = emails[:len(emails)-2] # remove ASKMCPS@mcpsmd.org and ersc@mcpsmd.org
 rows = zip(names, positions, emails)
 
 
-import csv
+# import csv
 
-fields = ["names", "positions", "emails"]
+# fields = ["names", "positions", "emails"]
 
-with open("data.csv", "w") as f:
-    write = csv.writer(f)
+# with open("data.csv", "w") as f:
+#     write = csv.writer(f)
 
-    write.writerow(fields)
-    write.writerows(rows)
+#     write.writerow(fields)
+#     write.writerows(rows)
